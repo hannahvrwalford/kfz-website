@@ -31,7 +31,7 @@ html {
   }
 
   section[id] {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 90px;
   }
   
   .header-inner {
@@ -471,4 +471,15 @@ html {
   .label-hint {
     font-weight: 400;
     color: #666;
+  }
+
+  /* --- Logo im Header --- */
+  .logo-link {
+    display: block;
+  }
+
+  .logo-img {
+    display: block;
+    height: 52px;
+    width: auto;
   }
