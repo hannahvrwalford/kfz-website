@@ -462,3 +462,8 @@ html {
     opacity: 0.6;
     cursor: wait;
   }
+
+  .label-hint {
+    font-weight: 400;
+    color: #666;
+  }
