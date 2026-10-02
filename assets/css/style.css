@@ -434,6 +434,11 @@ html {
     margin: 0 auto;
   }
 
+  .footer-nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+
   .footer-nav a {
     color: white;
     text-decoration: none;
