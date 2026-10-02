@@ -39,7 +39,7 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
-    max-width: 1200px;
+    max-width: calc(1200px + 3rem); /* 1200px Inhalt + Seitenabstand, bündig mit den Sektionen */
     margin: 0 auto;
   }
   
@@ -384,8 +384,13 @@ html {
   }
 
   .legal-inner {
-    max-width: 760px;
+    max-width: 1200px;
     margin: 0 auto;
+  }
+
+  /* Text bleibt gut lesbar schmal, beginnt aber links bündig mit dem Logo */
+  .legal-inner > * {
+    max-width: 760px;
   }
 
   .legal h1 {
