@@ -442,3 +442,23 @@ html {
   .footer-nav a:hover {
     color: var(--color-red);
   }
+
+  /* --- Rückmeldung Kontaktformular --- */
+  .form-status {
+    margin-top: 0.8rem;
+    font-weight: 600;
+    min-height: 1.5em;
+  }
+
+  .form-status.is-success {
+    color: #2e7d32;
+  }
+
+  .form-status.is-error {
+    color: var(--color-red);
+  }
+
+  .contact-form button:disabled {
+    opacity: 0.6;
+    cursor: wait;
+  }

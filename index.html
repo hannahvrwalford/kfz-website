@@ -136,7 +136,11 @@
 
       <div class="contact-grid">
 
-        <form class="contact-form" id="contactForm">
+        <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="fa68af67-1d12-432d-9b63-3686484e0952">
+          <input type="hidden" name="subject" value="Neue Anfrage über die Website">
+          <input type="hidden" name="from_name" value="KFZ-Website">
+          <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
           <label for="name">Name</label>
           <input type="text" id="name" name="name" required>
       
@@ -152,6 +156,7 @@
           </label>
       
           <button type="submit" class="btn-primary">Anfrage senden</button>
+          <p id="formStatus" class="form-status" role="status"></p>
         </form>
       
         <div class="contact-image-wrapper">
